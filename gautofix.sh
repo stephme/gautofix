@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 	Do a git commit --fixup followed by a git rebase -i --autosquash at once
-# 	Usage: gautofix [sha1] [target_branch]
+# 	Usage: gautofix [sha1] [parent_branch]
 ## 		[sha1] : the revision number of the commit to fixup
 ## 		[parent_branch] : the parent branch of the current working branch
 
